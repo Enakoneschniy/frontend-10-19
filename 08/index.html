@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson 08</title>
+    <style>
+        body {
+            user-select: none;
+        }
+        .coffee-machine {
+            display: flex;
+        }
+        .coffee-list {
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+        }
+        .col {
+            padding: 20px;
+        }
+        .drink > * {
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="coffee-machine">
+        <div class="col">
+            <ul class="coffee-list"></ul>
+        </div>
+        <div class="col">
+            <div class="balance">0 UAH</div>
+            <button class="get-cash">Cash</button>
+            <button class="get-coins">Coins</button>
+            <div>
+                Rest
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="js/script.js"></script>
+</body>
+</html>
