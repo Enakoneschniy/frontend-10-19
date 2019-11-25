@@ -4,3 +4,6 @@
 .DS_Store
 .idea
 
+.cache/
+dist/
+package-lock.json

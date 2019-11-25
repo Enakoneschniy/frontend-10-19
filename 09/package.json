@@ -1,0 +1,17 @@
+{
+  "name": "09",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel -p 3000 watch index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/core": "^7.0.0",
+    "babel-plugin-transform-class-properties": "^6.24.1"
+  }
+}
