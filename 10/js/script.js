@@ -119,7 +119,10 @@ fetch('https://jsonplaceholder.typicode.com/todos/6')
     .catch((e) => {
         console.log(e)
     });
-
+/*(async () => {
+    const response = await fetch('https://jsonplaceholder.typicode.com/todos/6')
+    const json = await response.json()
+})*/
 /*
 
 get
